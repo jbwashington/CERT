@@ -1,7 +1,7 @@
 _prefs: 
   baselayer: null
-  mapid: ''
-  saveCenter: false
+  mapid: jbw014.8eeab00f
+  saveCenter: true
 _properties: {}
 attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
 bounds: 
@@ -10,10 +10,10 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -74.0053
-  - 40.7123
+  - -92.3796
+  - 34.6949
   - 14
-description: ''
+description: 'Map of assets for Romine '
 format: jpeg95
 interactivity_layer: ''
 layers: 
@@ -44,7 +44,7 @@ layers:
   - housenum_label
 maxzoom: 22
 minzoom: 0
-name: Streets + Satellite
+name: Community Asset Map
 source: "mapbox:///mapbox.satellite,mapbox.mapbox-streets-v5"
 styles: 
   - style.mss

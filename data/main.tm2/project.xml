@@ -5,11 +5,12 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-74.0053,40.7123,14</Parameter>
+  <Parameter name="center">-92.3796,34.6949,14</Parameter>
+  <Parameter name="description"><![CDATA[Map of assets for Romine ]]></Parameter>
   <Parameter name="format">jpeg95</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
-  <Parameter name="name"><![CDATA[Streets + Satellite]]></Parameter>
+  <Parameter name="name"><![CDATA[Community Asset Map]]></Parameter>
   <Parameter name="source"><![CDATA[mapbox:///mapbox.satellite,mapbox.mapbox-streets-v5]]></Parameter>
 </Parameters>
 
