@@ -1,0 +1,28 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: ''
+  rev: ''
+  saveCenter: false
+attribution: MIT License
+center: 
+  - -92.3957
+  - 34.6792
+  - 11
+description: Little Rock, AR
+Layer: 
+  - id: Layer__0
+    Datasource: 
+      file: /home/james/Dropbox/CCE/jeremy-mapbox-studio-files/features-2.kml
+      layer: Layer #0
+      type: ogr
+    description: Community Assets
+    fields: 
+      Description: String
+      Name: String
+    properties: 
+      "buffer-size": 36
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 16
+minzoom: 0
+name: Community Elements
