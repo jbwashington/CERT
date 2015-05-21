@@ -9,7 +9,7 @@
         <!-- mapbox css -->
         <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
         <!-- custom css -->
-        <link href='styles.css' rel='stylesheet' />
+        <!-- <link href='styles.css' rel='stylesheet' /> -->
         <!-- mapbox js -->
         <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
         <!-- bootstrap js cdn -->
@@ -17,8 +17,8 @@
 
 
         <!-- geojson data js script -->
-        <script src='./js/data.js'></script>
-        <script src='./js/analytics.js'></script>
+        <!-- <script src='./js/data.js'></script> -->
+        <!-- <script src='./js/analytics.js'></script> -->
 
         <!-- start inline styles -->
         <style>
@@ -51,6 +51,7 @@
                 box-sizing:border-box;
             }
         </style>
+
         <!-- end inline styles -->
     </head>
 
@@ -59,53 +60,15 @@
         <!-- start map div -->
         <div class='sidebar pad2'></div>
         <div id='map' class='map pad2'></div>
-        <!-- start bootstrap overlay -->
-
-
-        <!-- end bootstrap overlay -->
-    </div>
     <!-- end map div -->
-    <!-- start mapbox script -->
-    <!-- <script> -->
-    <!--     L.mapbox.accessToken = 'pk.eyJ1IjoiamVyZW15c3RhcmsiLCJhIjoic2xEVDgzRSJ9.vyyeergfhVFC8JcJbfRlIw'; -->
-    <!--     L.mapbox.map('map', 'jeremystark.lom1mek4') -->
-    <!--     .addControl(L.mapbox.geocoderControl('mapbox.places')); -->
-    <!-- </script> -->
-    <!-- end mapbox script -->
-  <head>
-
-    <meta charset=utf-8 />
-    <title>Little Rock School District Community Elements Map</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
     <!-- start mapbox script -->
     <script>
-      L.mapbox.accessToken = 'pk.eyJ1IjoiamVyZW15c3RhcmsiLCJhIjoic2xEVDgzRSJ9.vyyeergfhVFC8JcJbfRlIw';
-      L.mapbox.map('map', 'jeremystark.lom1mek4').addControl(L.mapbox.geocoderControl('mapbox.places'));
+        L.mapbox.accessToken = 'pk.eyJ1IjoiamVyZW15c3RhcmsiLCJhIjoic2xEVDgzRSJ9.vyyeergfhVFC8JcJbfRlIw';
+        L.mapbox.map('map', 'jeremystark.lom1mek4')
+        .addControl(L.mapbox.geocoderControl('mapbox.places'));
     </script>
     <!-- end mapbox script -->
-
-    <!-- bootstrap css cdn -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-    <!-- mapbox css -->
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
-    <!-- custom css -->
-    <link href='styles.css' rel='stylesheet' />
-    <!-- mapbox js -->
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
-    <!-- bootstrap js cdn -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  </head>
-
-  <!-- start body -->
-  <body>
-    <!-- start sidebar div -->
-    <div class='sidebar pad2'>Listing</div>
-    <!-- end sidebar div -->
-
-    <!-- start map div -->
-    <div id='map'>Map</div>>
-    <!-- end map div -->
 
     <!-- start google analytics script -->
     <script>
@@ -122,5 +85,3 @@
   </body>
 
 </html>
-
-
