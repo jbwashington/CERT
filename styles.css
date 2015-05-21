@@ -1,11 +1,35 @@
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
+  background: #404040;
+  color: #f8f8f8;
+  font: 500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
+/* ============================================== */
+/* sidebar gets 1/3 of page, map gets 2/3 of page */
+/* ============================================== */
+
+
+.sidebar {
+  width: 33.3333%;
+}
+
+.pad2 {
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing:border-box;
+}
+
+
+
 #map {
-  position:absolute;
+  border-left: 1px solid #fff;
+  position: absolute;
   top:0;
   bottom:0;
-  width:100%;
 }
+
+
