@@ -1,6 +1,10 @@
 body {
   margin:0;
   padding:0;
+  background: #404040;
+  color:#f8f8f8;
+  font:500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  -webkit-font-smoothing:antialiased;
 }
 
 #map {
