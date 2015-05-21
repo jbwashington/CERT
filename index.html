@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset=utf-8 />
-        <title>Little Rock School District Community Elements Map</title>
-        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <head>
+    <meta charset=utf-8 />
+    <title>Little Rock School District Community Elements Map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <!-- bootstrap css cdn -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <!-- mapbox css -->
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+    <!-- custom css -->
+    <link href='styles.css' rel='stylesheet' />
+    <!-- mapbox js -->
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+    <!-- bootstrap js cdn -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-        <!-- mapbox js -->
-        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
-        <!-- bootstrap css cdn -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-        <!-- mapbox css -->
-        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
-        <style>
-            body { margin:0; padding:0; }
-            #map { position:absolute; top:0; bottom:0; width:100%; }
-        </style>
-    </head>
-    <body>
-        <div id='map'></div>
-        <!-- mapbox script -->
-        <script>
-            L.mapbox.accessToken = 'pk.eyJ1IjoiamVyZW15c3RhcmsiLCJhIjoic2xEVDgzRSJ9.vyyeergfhVFC8JcJbfRlIw';
-            L.mapbox.map('map', 'jeremystark.lom1mek4')
-            .addControl(L.mapbox.geocoderControl('mapbox.places'));
-        </script>
-        <!-- end mapbox script -->
-        <!-- start google analytics script -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- start inline styles -->
+    <style>
+      body { margin:0; padding:0; }
+      #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+    <!-- end inline styles -->
+  </head>
 
-            ga('create', 'UA-63188089-1', 'auto');
-            ga('send', 'pageview');
+  <!-- start body -->
+  <body>
+    <!-- start map div -->
+    <div id='map'>
+<!-- start bootstrap overlay -->
 
-        </script>
-        <!-- end google analytics script -->
-    </body>
+
+<!-- end bootstrap overlay -->
+    </div>
+    <!-- end map div -->
+    <!-- start mapbox script -->
+    <script>
+      L.mapbox.accessToken = 'pk.eyJ1IjoiamVyZW15c3RhcmsiLCJhIjoic2xEVDgzRSJ9.vyyeergfhVFC8JcJbfRlIw';
+      L.mapbox.map('map', 'jeremystark.lom1mek4')
+      .addControl(L.mapbox.geocoderControl('mapbox.places'));
+    </script>
+    <!-- end mapbox script -->
+    <!-- start google analytics script -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63188089-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+    <!-- end google analytics script -->
+  </body>
 
 </html>
 
